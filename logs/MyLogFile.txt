@@ -1,0 +1,5 @@
+21:19:07,131 [1] [D:\Paul\Projekte\log4net_test_project\log4net_test_project\Program.cs] ERROR - This is my error message.
+21:19:44,157 [1] [D:\Paul\Projekte\log4net_test_project\log4net_test_project\Program.cs] ERROR - This is my error message.
+21:31:42,327 [1] [D:\Paul\Projekte\log4net_test_project\log4net_test_project\Program.cs] ERROR - This is my error message.
+21:32:54,575 [1] [D:\Paul\Projekte\log4net_test_project\log4net_test_project\Program.cs] ERROR - This is my error message.
+21:53:32,924 [1] [D:\Paul\Projekte\log4net_test_project\log4net_test_project\Program.cs] ERROR - This is my error message.
