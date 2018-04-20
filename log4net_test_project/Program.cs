@@ -35,7 +35,15 @@ namespace log4net_test_project
                 log.Error("Developer: we tried to divide by zero, ...again!!!");
             }
 
-            log.Fatal("Maintanance: water pumb exploded!!!");
+            Counter j = new Counter();
+            log4net.GlobalContext.Properties["Counter"] = j;
+
+            for (j.LoopCounter = 0; j.LoopCounter < 5; j.LoopCounter++)
+            {
+                log.Fatal("This is a fatal error in the process.");
+            }
+
+            //log.Fatal("Maintanance: water pumb exploded!!!");
 
         }
     }
